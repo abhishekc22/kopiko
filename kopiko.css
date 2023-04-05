@@ -1,0 +1,123 @@
+*{
+    background-color: black;
+}
+.navbar{
+    width:100%;
+    background-color: black;
+    height: 250px;
+    position:relative;
+    
+}
+.navbar hr{
+    margin-top: 95px;
+}
+.heading{
+    color: wheat;
+    font-size: 40px;
+    padding-left: 500px;
+    padding-top: 5px;
+    
+
+    
+}
+.heading p:hover{
+    color:red;
+    transition: .5s;
+    cursor: pointer;
+    
+
+}
+.words1{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    left: 350px;
+}
+.words1 a{
+    letter-spacing: 5px;
+}
+.elements {
+color: white;
+font-size: 18px;
+font-style: unset;
+display: flex;
+padding-left: 300px;
+padding-top: 17px;
+list-style: none;
+
+}
+
+li{
+    margin-left: 20px;
+}
+#firstword{
+color: red;
+}
+.elements li:hover{
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+.second{
+    width: 100%;
+    height: 800px;
+    background-color: blue;
+}
+.second img{
+    width: 100%;
+    height: 800px; 
+
+}
+.third{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+   
+}
+.introduction{
+    font-size: 26px;
+    padding-left: 60px;
+    color: white;
+padding-top: 80px;
+}
+.introduction2{ 
+    font-size: 26px;
+    padding-left: 250px;
+    color: white;
+      top: 130px;
+}
+.fourth{
+  width: 100%;
+    height: 500px;
+    background-color: black;
+}
+.fourth img{
+    width: 60%;
+    height: 500px;
+    padding-left: 230px;
+}
+footer{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+.final{
+background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.final i{
+    color: white;
+    font-size: 35px;
+    margin-inline: 50px;
+}
+.facebook{
+    color: blue;
+}
+
+
